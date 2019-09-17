@@ -1,0 +1,13 @@
+{
+  "name": "sqlite3_test",
+  "main": "index.html",
+  "version": "0.0.1",
+  "private": true,
+  "gypfile": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "nan": "*"
+  }
+}

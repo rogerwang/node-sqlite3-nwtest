@@ -2,6 +2,7 @@
   "includes": [ "deps/common-sqlite.gypi" ],
   "variables": {
       "sqlite%":"internal",
+      "module_name%":"sqlite3",
       "sqlite_libname%":"sqlite3"
   },
   "targets": [
@@ -43,10 +44,6 @@
       "type": "none",
       "dependencies": [ "<(module_name)" ],
       "copies": [
-          {
-            "files": [ "<(PRODUCT_DIR)/<(module_name).node" ],
-            "destination": "<(module_path)"
-          }
       ]
     }
   ]

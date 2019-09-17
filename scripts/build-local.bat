@@ -44,7 +44,7 @@ SET platform=x64
 ECHO SET platform^: %platform%
 SET msvs_toolset=14
 ECHO SET msvs_toolset^: %msvs_toolset%
-::SET TOOLSET_ARGS=--dist-url=https://s3.amazonaws.com/mapbox/node-cpp11 --toolset=v140
+::SET TOOLSET_ARGS=--dist-url=https://s3.amazonaws.com/mapbox/node-cpp11 
 
 CALL scripts\build-appveyor.bat
 IF %ERRORLEVEL% NEQ 0 GOTO ERROR

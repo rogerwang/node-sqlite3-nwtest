@@ -5,7 +5,6 @@
   },
   'target_defaults': {
     'default_configuration': 'Release',
-    'msbuild_toolset':'<(toolset)',
     'configurations': {
       'Debug': {
         'defines!': [
